@@ -27,3 +27,14 @@ void threeLetter(string[] array) // Метод вывода нового мас�
     }
     Console.Write("]");
 }
+
+void ShowArray(string[] array) // Метод вывода массива в консоль.
+{
+    Console.Write("[ ");
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.Write("]");
+    Console.WriteLine();
+}
